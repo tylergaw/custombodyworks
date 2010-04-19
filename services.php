@@ -81,12 +81,12 @@
 				</p>
 				60 minute session to reduce emotional stress, relax and nurture. Reduces leg and foot cramps and improves circulation. Special care taken for the comfort and safety of the client in a sidelying position.
 			</dd>
-			<dt>Aromatherapy</dt>
+			<dt>Paraffin Therapy</dt>
 			<dd>
 				<p>
-					60 Minutes for <strong>$70</strong> and 90 minutes for <strong>$100</strong>
+					add to any treatment for <strong>$10</strong>
 				</p>
-				Consists of pure essential oil blends that are regenerating and oxygenating for the mind and body. Oils are customized for your particular needs and you are given your choice of pressure.
+				Paraffin may be used for arthritis or to alleviate pain in specific areas. The treatment starts with an analgesic and finishes with a Paraffin wrap.
 			</dd>
 			<dt>Sports for Pre &amp; Post events</dt>
 			<dd>
@@ -136,19 +136,19 @@
 				</p>
 				Relaxing yet invigorating full body treatment that increases circulation and promotes detoxification. Special ingredients include lavender, juniper, cypress and rosemary.
 			</dd>
-			<dt id="seaSaltGlow">Exfoli-Sea Salt Glow</dt>
+			<dt id="saltScrub">Salt/Sugar Scrubs</dt>
 			<dd>
 				<p>
 					60 minutes for <strong>$60</strong>
 				</p>
-				Combines therapeutic, re-mineralizing benefits of dead sea salt with naturally replenishing oils of jojoba, peach, avocado and sunflower to buff and refine skin. After showering skin is moisturized with body butter.
+				Therapeutic exfoliation of the body. Different types available for customizing.
 			</dd>
 			<dt>Seaweed Body Mud</dt>
 			<dd>
 				<p>
 					120 minutes for <strong>$95</strong>
 				</p>
-				Begins with <a href="#seaSaltGlow">Sea Salt Glow</a> listed above. Followed by mud applied to the entire body. Rebalances and restores proper hydration and protects future exposure by fighting free radicals. Stimulates, firms and moisturizes the body. Stimulates thyroid for slimming and increases vasodilation for decongestion and waste elimination. After showering skin is moisturized with body butter.
+				Begins with <a href="#saltScrub">Salt/Sugar Scrub</a> listed above. Followed by mud applied to the entire body. Rebalances and restores proper hydration and protects future exposure by fighting free radicals. Stimulates, firms and moisturizes the body. Stimulates thyroid for slimming and increases vasodilation for decongestion and waste elimination. After showering skin is moisturized with body butter.
 			</dd>
 			<dt>Herbal Hibernation Wrap</dt>
 			<dd>

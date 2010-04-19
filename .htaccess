@@ -1,8 +1,5 @@
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^cutombodyworksllc.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www.cutombodyworksllc.com$
-RewriteRule ^(.*)$ http://custombodyworksllc.com [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^karmagaw.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.karmagaw.com$

@@ -10,9 +10,7 @@
 			<li>573-324-0328</li>
 		</ul>
 		<ul id="siteInfo">
-			<li>site by <a title="www.tylergaw.com" rel="external" href="http://www.tylergaw.com">tyler<strong>gaw</strong></a></li>
-			<li class="validLink"><a title="Valid xHTML Strict 1.0" rel="external" href="http://validator.w3.org/check?uri=referer">xHTML</a></li>
-			<li class="validLink"><a title="Valid CSS" rel="external" href="http://jigsaw.w3.org/css-validator/validator?uri=http://www.custombodyworksllc.com">CSS</a></li>
+			<li>site by <a title="www.tylergaw.com" rel="external" href="http://www.tylergaw.com">tylergaw</a></li>
 		</ul>
 	</div>
 	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
