@@ -282,12 +282,24 @@ ul, li{
 		padding:20px 35px 0 38px;
 		line-height:1.4em;
 	}
+
+#bio .aside
+{
+	width: 30%;
+	float: left;
+}
+	
+#bio .section
+{
+	width: 70%;
+	float: right;
+	padding-bottom: 15px;
+}
+
 #bio p{
 	font-size:90%;
 	padding:10px 0;
 	line-height:1.3em;
-	width: 70%;
-	float: right;
 }
 	#bio dl{
 		font-size:90%;
@@ -303,17 +315,33 @@ ul, li{
 		padding:6px 0 6px 24px;
 		background:#fff url(../images/icon_bullet.gif) no-repeat center left;
 	}
+	
+	#bio dd em
+	{
+		font-size: 80%;
+	}
+	
 	#bio acronym{
 		font-weight:bold;
 		cursor:help;
 		border-bottom:1px solid #ccc;
 	}
-
-	#bio img{
+	
+	#bio blockquote p
+	{
+		font-style: italic;
+		text-align: left;
+		font-size: 80%;
+		padding: 0 60px 0 35px;
+		color: #EE6700;
+		background: #fff url(../images/bio_quote_bg.gif) no-repeat 0 4px;
+	}
+	
+	#bio img
+	{
 		padding:2px;
 		border:1px solid #ccc;
 		border-bottom-width: 2px;
-		float:left;
 		margin:10px 15px 10px 0px;
 	}
 	
