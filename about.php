@@ -20,7 +20,7 @@
 		<div class="section">
 			<h3>Karma Gaw</h3>
 			<p>
-				...is a Nationally Certified Licensed Massage Therapist, Licensed Esthetician, and Certified Personal Trainer. As a Personal Trainer she has certified over 45 women to be instructors in the fitness industry. Her background for bodyworks spans 20 years and growing as a personal trainer with numerous clients, a Certified Aerobic, Step, and Kickboxing Instructor. In the last 20 years she has also competed in National Aerobic Championships and has appeared in American Fitness magazine twice for fitness training.
+				...is a Nationally Certified Licensed Massage Therapist, Licensed Esthetician, and Certified Personal Trainer. Her background in bodyworks spans 20 years. In that time she has become a Certified Aerobic, Step, and Kickboxing Instructor and has also competed in National Aerobic Championships. As a Personal Trainer she has certified over 45 women to be instructors in the fitness industry. Twice she has appeared in American Fitness Magazine highlighting her achievements in fitness training.
 			</p>
 			<p>
 				Karma believes that she was meant to be "Good Karma" through touch. She is very intuitive and truly believes massage allows the body to heal itself. Karma's stronger modalities are <a href="services.php#trigger-point">Trigger Point</a> and <a href="services.php#reflexology">Foot Reflexology</a>. Although all of her techniques are well practiced she will continue her education.
