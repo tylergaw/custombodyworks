@@ -1,5 +1,10 @@
-
+Options +FollowSymlinks
+Options -MultiViews
 RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !\.[a-z0-9]+$
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ /$1.html [L]
 
 RewriteCond %{HTTP_HOST} ^karmagaw.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.karmagaw.com$
