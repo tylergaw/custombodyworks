@@ -1,0 +1,29 @@
+/*- Header -------------------------------------------------------------------------------------------*/
+
+header #branding a
+{
+	background-image: url(../images/branding.gif);
+}
+	
+/*- Content ------------------------------------------------------------------------------------------*/
+
+.content-main,
+.picture-frame
+{
+	background-image: none;
+}
+
+/*- Summary ------------------------------------------------------------------------------------------*/
+
+#summary
+{
+	background-image: url(../images/home_banner_headshot.gif);
+	top: -15px;
+}
+
+#sitelinks a
+{
+	background-image: url(../images/home_links_bg.gif);
+	padding: 20px 24px 0 24px;
+	width: 174px;
+}

@@ -1,0 +1,100 @@
+#home #view-container
+{
+	background: transparent url(../images/home_banner_bg.jpg) repeat-x center top;
+	overflow: visible;
+	width: auto;
+}
+
+#home #view-bottom
+{
+	display: none;
+	min-width: 960px;
+}
+
+#home .content
+{
+	margin: 0 auto;
+	overflow: visible;
+	padding: 0;
+	width: 960px;
+}
+
+#home div.content:first-child
+{
+	background-image: none;
+	padding-top: 0;
+}
+
+/*- Summary ------------------------------------------------------------------------------------------*/
+
+#summary
+{
+	background: transparent url(../images/home_banner_headshot.png) no-repeat 98% bottom;
+	color: #fffbf1;
+	font-size: 22px;
+	font-style: italic;
+	height: 141px;
+	line-height: 1.7em;
+	margin: 0 auto;
+	padding: 45px 175px 0 10px;
+	position: relative;
+	text-indent: 1em;
+	text-shadow: #713703 1px 1px 1px;
+	top: -15px;
+	width: 785px;
+}
+
+/*- Page Links ---------------------------------------------------------------------------------------*/
+	
+	#sitelinks li
+	{
+		float: left;
+		margin-left: 12px;
+	}
+	
+		#sitelinks li:first-child
+		{
+			margin-left: 0;
+		}
+	
+	#sitelinks a
+	{
+		background: transparent url(../images/home_links_bg.png) no-repeat left top;
+		color: #875839;
+		display: block;
+		font-size: 16px;
+		height: 125px;
+		padding: 20px 24px 0 24px;
+		text-decoration: none;
+		width: 183px;
+	}
+	
+	#sitelinks a b
+	{
+		background: transparent url(../images/home_links_icon.gif) no-repeat 99.5% 2px;
+		color: #9a5223;
+		display: block;
+		font-size: 19px;
+		font-style: italic;
+		margin-bottom: 10px;
+		padding-bottom: 6px;
+		position: relative;
+		text-shadow: #fff 1px 1px 1px;
+	}
+	
+	#sitelinks a:hover
+	{
+		color: #762f00;
+	}
+	
+	#sitelinks a:hover b
+	{
+		background-position: 100% 2px;
+		color: #762f00;
+	}
+	
+	#sitelinks a:active
+	{
+		margin-bottom: -1px;
+		padding-top: 21px;
+	}
