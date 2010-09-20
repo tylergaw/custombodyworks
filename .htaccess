@@ -10,3 +10,8 @@ RewriteCond %{HTTP_HOST} ^karmagaw.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www.karmagaw.com$
 RewriteRule ^(.*)$ http://custombodyworksllc.com [R=301,L]
 
+redirect 301 /index.php /
+redirect 301 /about.php /about
+redirect 301 /services.php /services
+redirect 301 /faq.php /faq
+redirect 301 /contact.php /contact
