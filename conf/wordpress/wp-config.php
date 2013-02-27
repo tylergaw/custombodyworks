@@ -13,6 +13,13 @@
  *
  * @package WordPress
  */
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/blog/wordpress');
+define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
+
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/blog/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/blog/wp-content');
+
+#define('WP_DEFAULT_THEME', 'mytheme');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
