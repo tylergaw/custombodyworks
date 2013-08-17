@@ -23,7 +23,7 @@
 	{
 		color: #e36001;
 	}
-	
+
 	#appointment-days
 	{
 		color: #e36001;
@@ -52,7 +52,7 @@
 		display: block;
 		padding: 8px;
 	}
-	
+
 	#menu-download-link span
 	{
 		background-color: #fffdfa;
@@ -61,34 +61,12 @@
 		border: 1px solid #fff7e3;
 		display: block;
 	}
-	
+
 		#menu-download-link:hover span
 		{
 			border-color: #ffebba;
 			color: #893f0f;
 		}
-
-/*- Service Navigation -------------------------------------------------------------------------------*/
-
-#nav-services
-{
-	background: transparent url(../images/content_horiz_divider.png) no-repeat center bottom;
-	font-size: 17px;
-	font-style: italic;
-	margin-bottom: 22px;
-	padding: 22px 0;
-	text-align: center;
-}
-
-	#nav-services li
-	{
-		display: inline;
-	}
-	
-	#nav-services a
-	{
-		padding: 0 24px;
-	}
 
 /*- Service Section Titles ---------------------------------------------------------------------------*/
 
@@ -109,7 +87,7 @@
 		height: 24px;
 		text-shadow: #894208 1px 1px 1px;
 	}
-	
+
 		#services h3 span span
 		{
 			background: transparent url(../images/services_header_sprite.png) no-repeat right bottom;
@@ -142,7 +120,7 @@
 		font-size: 12px;
 		font-weight: normal;
 	}
-	
+
 /*- Service Descriptions -----------------------------------------------------------------------------*/
 
 	#services .content-main dd

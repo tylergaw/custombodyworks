@@ -8,13 +8,13 @@
 		min-width: 400px;
 		padding-bottom: 0px;
 	}
-	
+
 	header
 	{
 		padding-top: 18px;
 		width: 95%;
 	}
-	
+
 	header #branding a
 	{
 		background-image: url(../images/mobile_branding.png);
@@ -23,10 +23,10 @@
 		margin-left: 20px;
 		width: 324px;
 	}
-	
+
 	/*- Navigation -----------------------------------------------------------------------------------*/
-	
-		header nav 
+
+		header nav
 		{
 			background-color: rgba(255, 252, 244, 0.5);
 			display: block;
@@ -37,7 +37,7 @@
 			text-align: center;
 			width: 100%;
 		}
-		
+
 			header nav li
 			{
 				display: inline;
@@ -45,7 +45,7 @@
 				height: 29px;
 				margin-left: 16px;
 			}
-			
+
 				header nav li:first-child
 				{
 					margin-left: 0;
@@ -80,9 +80,9 @@
 					border-bottom-color: #e27914;
 					cursor: default;
 				}
-		
+
 	/*- View Container -------------------------------------------------------------------------------*/
-	
+
 	#view-container,
 	#home #view-container
 	{
@@ -92,36 +92,36 @@
 		margin: 15px auto 0 auto;
 		width: 95%;
 	}
-	
+
 		#view-bottom
 		{
 			display: none;
 		}
-		
+
 	/*- Content --------------------------------------------------------------------------------------*/
-	
+
 	.content,
 	#home .content
 	{
 		padding: 15px;
 		width: 95%;
 	}
-	
+
 		.content.first-child
 		{
 			background-image: none;
 			padding-top: 0px;
 			top: 0px;
 		}
-		
+
 		.content h2
 		{
 			font-size: 22px;
 			padding: 15px 0 10px 0;
 		}
-	
+
 	/*- Content Main ---------------------------------------------------------------------------------*/
-	
+
 	.content-main
 	{
 		background-image: none;
@@ -129,31 +129,31 @@
 		padding: 0px;
 		width: 100%;
 	}
-	
+
 	/*- Content Secondary ----------------------------------------------------------------------------*/
-	
+
 	.content-secondary
 	{
 		float: none;
 		width: 100%;
 	}
-	
+
 	/*- Footer ---------------------------------------------------------------------------------------*/
-	
+
 	footer
 	{
 		background-image: none;
 		width: 95%;
 	}
-	
+
 	footer ul
 	{
 		background-image: none;
 		padding: 10px 0;
 	}
-	
+
 	/*- Home -----------------------------------------------------------------------------------------*/
-	
+
 	#summary
 	{
 		background-image: none;
@@ -198,20 +198,20 @@
 			text-decoration: none;
 			width: 95%;
 		}
-		
+
 		#sitelinks a b
 		{
 			background-position: 95% 2px;
 		}
-		
+
 		#sitelinks a:active
 		{
 			margin-bottom: 0px;
 			padding-top: 8px;
 		}
-	
+
 	/*- About ----------------------------------------------------------------------------------------*/
-	
+
 	.content blockquote
 	{
 		margin: 18px 0;
@@ -224,22 +224,22 @@
 		font-size: 18px;
 		padding: 0px 40px 0 50px;
 	}
-	
+
 	#about-location .content-secondary
 	{
 		display: none;
 	}
-	
+
 	#accreditations-memberships
 	{
 		padding: 0 6px 0 0;
 	}
-	
+
 	#accreditations-memberships dt
 	{
 		margin-bottom: 8px;
 	}
-		
+
 		#accreditations-memberships dt b
 		{
 			color: #9a5324;
@@ -248,30 +248,30 @@
 			position: relative;
 			top: auto;
 		}
-		
+
 		#accreditations-memberships dt span
 		{
 			position: relative;
 			right: auto;
 			top: auto;
 		}
-		
+
 		#accreditations-memberships dt span.first-child
 		{
 			left: auto;
 			top: auto;
 		}
-		
-		#accreditations-memberships li 
+
+		#accreditations-memberships li
 		{
 			padding: 4px 0;
 		}
-	
+
 	#about-gallery
 	{
 		padding-right: 6px;
 	}
-	
+
 	#about-gallery li.iDevice
 	{
 		border: none;
@@ -282,14 +282,7 @@
 		{
 			width: 100%;
 		}
-	
-	/*- Services -------------------------------------------------------------------------------------*/
-	
-	#nav-services a
-	{
-		padding: 0 12px;
-	}
-	
+
 	/*- Contact --------------------------------------------------------------------------------------*/
 
 		#contact-info dt
@@ -297,13 +290,13 @@
 			text-indent: 0px;
 			width: 20%;
 		}
-		
+
 		#contact-info dd
 		{
 			width: 80%;
 		}
-		
-		#directions 
+
+		#directions
 		{
 			padding: 0 6px 0 0px;
 			float: left;
