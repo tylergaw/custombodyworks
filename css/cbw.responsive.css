@@ -88,7 +88,7 @@
 	{
 		background-color: rgba(255, 252, 244, 0.8);
 		background-image: none;
-		-webkit-box-shadow: #c5b695 0px 0px 4px;
+		box-shadow: #c5b695 0px 0px 4px;
 		margin: 15px auto 0 auto;
 		width: 95%;
 	}

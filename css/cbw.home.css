@@ -29,34 +29,36 @@
 
 #summary
 {
-	background: transparent url(../images/home_banner_headshot.png) no-repeat 98% bottom;
 	color: #fffbf1;
-	font-size: 22px;
+	font-size: 24px;
 	font-style: italic;
 	height: 141px;
 	line-height: 1.7em;
 	margin: 0 auto;
-	padding: 45px 175px 0 10px;
+	padding: 28px 20px 0 20px;
 	position: relative;
-	text-indent: 1em;
+  text-align: center;
 	text-shadow: #713703 1px 1px 1px;
-	top: -15px;
-	width: 785px;
+	width: 780px;
 }
 
 /*- Page Links ---------------------------------------------------------------------------------------*/
-	
+
+#sitelinks {
+  padding-top: 15px;
+}
+
 	#sitelinks li
 	{
 		float: left;
 		margin-left: 12px;
 	}
-	
+
 		#sitelinks li:first-child
 		{
 			margin-left: 0;
 		}
-	
+
 	#sitelinks a
 	{
 		background: transparent url(../images/home_links_bg.png) no-repeat left top;
@@ -68,7 +70,7 @@
 		text-decoration: none;
 		width: 183px;
 	}
-	
+
 	#sitelinks a b
 	{
 		background: transparent url(../images/home_links_icon.gif) no-repeat 99.5% 2px;
@@ -81,18 +83,18 @@
 		position: relative;
 		text-shadow: #fff 1px 1px 1px;
 	}
-	
+
 	#sitelinks a:hover
 	{
 		color: #762f00;
 	}
-	
+
 	#sitelinks a:hover b
 	{
 		background-position: 100% 2px;
 		color: #762f00;
 	}
-	
+
 	#sitelinks a:active
 	{
 		margin-bottom: -1px;
