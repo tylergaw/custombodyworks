@@ -7,13 +7,13 @@ li { list-style: none inside;}
 fieldset { border: none; }
 
 
-::-moz-selection 
+::-moz-selection
 {
 	color: #fffbf1;
 	background-color: #ff810a;
 }
-	
-::selection 
+
+::selection
 {
 	color: #fffbf1;
 	background-color: #ff810a;
@@ -26,7 +26,6 @@ body
 	color: #8d5d3e;
 	font-family: georgia, times, serif;
 	font-size: 16px;
-	min-width: 960px;
 	padding-bottom: 15px;
 }
 
@@ -49,17 +48,17 @@ header
 		text-indent: -300em;
 		width: 472px;
 	}
-	
+
 /*- Navigation ---------------------------------------------------------------------------------------*/
 
-	header nav 
+	header nav
 	{
 		display: inline-block;
 		float: right;
 		margin-top: 22px;
 		padding-right: 14px;
 	}
-	
+
 		header nav li
 		{
 			display: block;
@@ -67,12 +66,12 @@ header
 			height: 26px;
 			margin-left: 14px;
 		}
-		
+
 			header nav li:first-child
 			{
 				background: none;
 			}
-		
+
 		header nav a
 		{
 			border-bottom: 2px solid #fff8ec;
@@ -87,41 +86,41 @@ header
 			text-decoration: none;
 			text-shadow: #fff 1px 1px 1px;
 		}
-		
+
 		header nav a:hover
 		{
 			border-bottom-color: #e27914;
 		}
-		
+
 		header nav a:active
 		{
 			outline: 0px;
 			top: 1px;
 		}
-		
+
 		header nav li.current
 		{
 			background: transparent url(../images/nav_a_sprite.png) no-repeat left top;
 		}
-		
+
 			header nav li.current a
 			{
 				background: transparent url(../images/nav_a_sprite.png) no-repeat right bottom;
 				color: #fffbf1;
 				text-shadow: #c16a17 1px 1px 1px;
 			}
-			
+
 			header nav li.current a:hover
 			{
 				border-bottom-color: #fff8ec;
 				cursor: default;
 			}
-			
+
 			header nav li.current a:active
 			{
 				top: 0px;
 			}
-			
+
 /*- View Container -----------------------------------------------------------------------------------*/
 
 #view-container
@@ -143,7 +142,7 @@ header
 		width: 964px;
 		z-index: 99;
 	}
-	
+
 /*- Content ------------------------------------------------------------------------------------------*/
 
 .content
@@ -156,7 +155,7 @@ header
 	width: 900px;
 	z-index: 100;
 }
-	
+
 	#home .content
 	{
 		padding: 0;
@@ -169,13 +168,13 @@ header
 		padding-top: 36px;
 		top: -6px;
 	}
-	
+
 	#home .content.first-child
 	{
 		background-image: none;
 		padding-top: 0;
 	}
-	
+
 	.content h2
 	{
 		background: transparent url(../images/content_horiz_divider.png) no-repeat left bottom;
@@ -185,34 +184,34 @@ header
 		padding: 15px 0 18px 0;
 		text-shadow: #fff 1px 1px 1px;
 	}
-	
+
 	.content a
 	{
 		color: #e6780f;
 		text-decoration: underline;
 	}
-	
+
 		.content a:hover
 		{
 			text-decoration: none;
 		}
-	
+
 	.content p
 	{
 		clear: both;
 		padding-bottom: 22px;
 	}
-	
+
 	.content h2 + p
 	{
 		padding-top: 15px;
 	}
-	
+
 	.content small
 	{
 		font-size: 12px;
 	}
-	
+
 	p.emphasis
 	{
 		background-color: #fffcf6;
@@ -222,7 +221,7 @@ header
 		border-radius: 5px;
 		padding: 6px;
 	}
-	
+
 /*- Content Main -------------------------------------------------------------------------------------*/
 
 .content-main
@@ -249,7 +248,7 @@ header
 		margin-left: 4px;
 		padding: 0 0 6px 4px;
 	}
-	
+
 	.picture-frame img
 	{
 		background-color: #fff;
@@ -257,7 +256,7 @@ header
 		display: block;
 		padding: 6px;
 	}
-	
+
 /*- Content Secondary dl -----------------------------------------------------------------------------*/
 
 .content-secondary dl
@@ -265,7 +264,7 @@ header
 	padding: 0 24px 6px 24px;
 	text-align: left;
 }
-	
+
 	.content-secondary dt
 	{
 		color: #9a5324;
@@ -274,19 +273,19 @@ header
 		margin-bottom: 5px;
 		position: relative;
 	}
-	
+
 	.content-secondary dd p
 	{
 		font-size: 13px;
 		line-height: 1.3em;
 		padding-bottom: 10px;
 	}
-	
+
 	.content-secondary dd ul
 	{
 		padding-bottom: 12px;
 	}
-	
+
 	.content-secondary li
 	{
 		border-bottom: 1px solid #e8d9b1;
@@ -296,7 +295,7 @@ header
 		padding: 8px 0;
 		position: relative;
 	}
-	
+
 	.content-secondary li strong
 	{
 		color: #e36001;
@@ -304,7 +303,7 @@ header
 		font-weight: normal;
 		width: 145px;
 	}
-	
+
 	.content-secondary li span
 	{
 		font-weight: normal;
@@ -312,12 +311,12 @@ header
 		position: absolute;
 		right: 0;
 	}
-	
+
 	.content-secondary small
 	{
 		font-style: italic;
 	}
-	
+
 	.content-secondary dd p.emphasis
 	{
 		line-height: 1.36em;
@@ -342,14 +341,14 @@ footer
 		line-height: 1.4em;
 		padding: 40px 0;
 	}
-	
+
 	footer ul strong
 	{
 		color: #c16705;
 		font-size: 22px;
 		font-weight: normal;
 	}
-	
+
 	footer a
 	{
 		color: #e6780f;

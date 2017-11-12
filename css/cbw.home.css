@@ -16,7 +16,8 @@
 	margin: 0 auto;
 	overflow: visible;
 	padding: 0;
-	width: 960px;
+	max-width: 960px;
+  width: 100%;
 }
 
 #home div.content:first-child
@@ -30,7 +31,7 @@
 #summary
 {
 	color: #fffbf1;
-	font-size: 24px;
+	font-size: 22px;
 	font-style: italic;
 	height: 141px;
 	line-height: 1.7em;
@@ -39,19 +40,20 @@
 	position: relative;
   text-align: center;
 	text-shadow: #713703 1px 1px 1px;
-	width: 780px;
+	max-width: 780px;
 }
 
 /*- Page Links ---------------------------------------------------------------------------------------*/
 
 #sitelinks {
+  overflow: hidden;
   padding-top: 15px;
+  text-align: center;
 }
 
 	#sitelinks li
 	{
-		float: left;
-		margin-left: 12px;
+    display: inline-block;
 	}
 
 		#sitelinks li:first-child
@@ -67,6 +69,7 @@
 		font-size: 16px;
 		height: 125px;
 		padding: 20px 24px 0 24px;
+    text-align: left;
 		text-decoration: none;
 		width: 183px;
 	}

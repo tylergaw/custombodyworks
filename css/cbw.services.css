@@ -7,9 +7,9 @@
 
 #services.content:after
 {
-	display: block;
-    clear: left;
-    content: " ";
+  display: block;
+  clear: left;
+  content: " ";
 }
 
 /*- Pricing and Scheduling ---------------------------------------------------------------------------*/
@@ -19,16 +19,20 @@
 	padding-top: 18px;
 }
 
-	#pricing-scheduling small b
-	{
-		color: #e36001;
-	}
+#pricing-scheduling small {
+  font-size: 14px;
+}
 
-	#appointment-days
-	{
-		color: #e36001;
-		font-style: italic;
-	}
+#pricing-scheduling small b
+{
+	color: #e36001;
+}
+
+#appointment-days
+{
+	color: #e36001;
+	font-style: italic;
+}
 
 #menu-download-link
 {
