@@ -70,8 +70,8 @@ body {
 }
 
 .notice__title {
-  background-color: #f19f00;
-  color: #252525;
+  background: #a5450b url(../images/home_banner_bg.jpg) repeat-x left center;
+  color: #fffbf1;
   padding: 0.75rem 1rem;
   font-size: 110%;
   text-transform: uppercase;
@@ -85,6 +85,38 @@ body {
 .notice li {
   list-style: decimal inside;
   margin: 0.4rem 0;
+}
+
+.inline-notice {
+  background-color: #fff;
+  border: 1px solid #e3dbc8;
+  border-radius: 4px;
+  clear: both;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.inline-notice p {
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  padding-bottom: 0 !important;
+}
+
+.inline-notice ul {
+  padding-left: 0.25rem;
+}
+
+.inline-notice li {
+  list-style: disc inside;
+  margin: 0.25rem 0;
+}
+
+/* Overrides specific to services page */
+#services .inline-notice h3 {
+  background: none;
+  left: 0;
+  margin: 0;
 }
 
 /*- Header -------------------------------------------------------------------------------------------*/
