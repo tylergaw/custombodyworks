@@ -1,0 +1,163 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+---
+  
+<style>
+  .content {
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    max-width: 960px;
+    width: 100%;
+  }
+
+  .content:first-child {
+    background-image: none;
+    padding-top: 0;
+  }
+
+  #summary {
+    color: #fffbf1;
+    font-size: 22px;
+    font-style: italic;
+    height: 141px;
+    line-height: 1.7em;
+    margin: 0 auto;
+    padding: 28px 20px 0 20px;
+    position: relative;
+    text-align: center;
+    text-shadow: #713703 1px 1px 1px;
+    max-width: 780px;
+  }
+
+  #sitelinks {
+    overflow: hidden;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  #sitelinks li {
+    display: inline-block;
+  }
+
+  #sitelinks li:first-child {
+    margin-left: 0;
+  }
+
+  #sitelinks a {
+    background: transparent url(/images/home_links_bg.png) no-repeat left top;
+    color: #875839;
+    display: block;
+    font-size: 16px;
+    height: 125px;
+    padding: 20px 24px 0 24px;
+    text-align: left;
+    text-decoration: none;
+    width: 183px;
+  }
+
+  #sitelinks a b {
+    background: transparent url(/images/home_links_icon.gif) no-repeat 99.5% 2px;
+    color: #9a5223;
+    display: block;
+    font-size: 19px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    position: relative;
+    text-shadow: #fff 1px 1px 1px;
+  }
+
+  #sitelinks a:hover {
+    color: #762f00;
+  }
+
+  #sitelinks a:hover b {
+    background-position: 100% 2px;
+    color: #762f00;
+  }
+
+  #sitelinks a:active {
+    margin-bottom: -1px;
+    padding-top: 21px;
+  }
+
+  @media (max-width: 480px) {
+    #summary {
+      background-image: none;
+      color: #b8600c;
+      font-size: 17px;
+      height: auto;
+      line-height: 1.5em;
+      padding: 20px 10px 15px 10px;
+      top: 0px;
+      text-shadow: none;
+      width: auto;
+    }
+
+    #sitelinks {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    #sitelinks li {
+      float: left;
+      margin-left: 0px;
+      width: 47%;
+    }
+
+    #sitelinks li:first-child {
+      margin-left: 0;
+    }
+
+    #sitelinks a {
+      background-color: #fffbf0;
+      background-image: none;
+      border-top: 1px solid #e9dbbb;
+      display: block;
+      float: left;
+      font-size: 13px;
+      height: 100px;
+      padding: 8px;
+      text-decoration: none;
+      width: 95%;
+    }
+
+    #sitelinks a b {
+      background-position: 95% 2px;
+    }
+
+    #sitelinks a:active {
+      margin-bottom: 0px;
+      padding-top: 8px;
+    }
+  }
+</style>
+
+<BaseLayout bodyId="home">
+  <div class="content first-child">
+    <p id="summary">
+      Karma Gaw is an avid believer in the benefits of therapeutic massage.
+      Custom Body Works is where she shares her knowledge; gained through
+      years of study and experience, to help you live a healthier, happier
+      life.
+    </p>
+    <ul id="sitelinks">
+      <li>
+        <a href="/about"
+          ><b>About</b> Who is Karma and where is her practice located.</a
+        >
+      </li>
+      <li>
+        <a href="/services"
+          ><b>Services</b> Available massage and bodyworks techniques.</a
+        >
+      </li>
+      <li>
+        <a href="/contact"
+          ><b>Contact</b> Get in touch to schedule your next appointment.</a
+        >
+      </li>
+    </ul>
+  </div>
+</BaseLayout>

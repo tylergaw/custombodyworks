@@ -1,0 +1,270 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+import CovidPrecautions from "../components/CovidPrecautions.astro";
+---
+
+<style>
+  .content {
+    overflow: visible;
+  }
+
+  .content:after {
+    display: block;
+    clear: left;
+    content: " ";
+  }
+
+  #pricing-scheduling dt {
+    padding-top: 18px;
+  }
+
+  #pricing-scheduling small {
+    font-size: 14px;
+  }
+
+  #pricing-scheduling small b {
+    color: #e36001;
+  }
+
+  #appointment-days {
+    color: #e36001;
+    font-style: italic;
+  }
+
+  #menu-download-link {
+    background-color: #fff;
+    border: 1px solid #eee7d5;
+    color: #9a5223;
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 6px;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: #fff 1px 1px 1px;
+    width: 236px;
+  }
+
+  #menu-download-link strong {
+    background: transparent url(/images/services_menu_icon.png) no-repeat 97.5%
+      center;
+    display: block;
+    padding: 8px;
+  }
+
+  #menu-download-link span {
+    background-color: #fffdfa;
+    background-image: -moz-linear-gradient(top, #fffefd, #fff8e7);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#fffefd),
+      to(#fff8e7)
+    );
+    border: 1px solid #fff7e3;
+    display: block;
+  }
+
+  #menu-download-link:hover span {
+    border-color: #ffebba;
+    color: #893f0f;
+  }
+
+  #services h3 {
+    background: transparent url(/images/content_horiz_divider.png) no-repeat 15px
+      center;
+    left: -8px;
+    margin: 10px 0 38px 0;
+    position: relative;
+  }
+
+  #services h3 span {
+    background: transparent url(/images/services_header_sprite.png) no-repeat left
+      top;
+    color: #fffbf1;
+    display: inline-block;
+    font-size: 13px;
+    height: 24px;
+    text-shadow: #894208 1px 1px 1px;
+  }
+
+  #services h3 span span {
+    background: transparent url(/images/services_header_sprite.png) no-repeat
+      right bottom;
+    display: inline-block;
+    height: 24px;
+    padding: 0 7px;
+  }
+
+  #services .content-main dt {
+    color: #87461c;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-top: 5px;
+    text-align: left;
+    width: 30%;
+  }
+
+  #services .content-main dt a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #services dt:target a,
+  #services .content-main dt a:hover,
+  #services .content-main dt a:focus {
+    color: #e6780f;
+    text-decoration: underline;
+  }
+
+  #services .content-main dt em {
+    color: #4e260c;
+    display: block;
+    font-family: "helvetica nueue", helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  #services .content-main dd {
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 0 40px 10px;
+    width: 65%;
+  }
+
+  .services-detail-list li {
+    list-style-type: circle;
+  }
+</style>
+    
+<BaseLayout>
+  <div class="content first-child" id="services">
+    <div class="content-main">
+      <h2>Services</h2>
+      <p>
+        Create your own session to balance your body. Minimize pain,
+        tension, stress, and injury. Maximize blood flow, lymph flow,
+        energy, immune system, relaxation, and performance.
+      </p>
+
+      <CovidPrecautions />
+
+      <h3>
+        <span><span>Therapeutic Sessions</span></span>
+      </h3>
+      <dl>
+        <dt id="biomat-therapy">
+          <a href="#biomat-therapy">Biomat Therapy</a>
+        </dt>
+        <dd>
+          Scientific techniques coupled with ancient wisdom of nature’s own
+          resources (amethyst). Benefits include; pain and stress relief,
+          restored energy levels, increased circulation, and more. Read more
+          about it on their website
+          <a
+            href="http://www.biomatsynergy.com/"
+            target="_blank"
+            rel="noopener"
+            >biomatsynergy.com</a
+          >.
+          <br />
+          <br />
+          Can be used in any therapy session at no extra charge or scheduled
+          as a standalone service:
+          <ul class="services-detail-list">
+            <li><strong>15 min</strong>.......$15</li>
+            <li><strong>30 min</strong>......$30</li>
+            <li><strong>40 min</strong>......$45</li>
+            <li><strong>60 min</strong>......$60</li>
+          </ul>
+        </dd>
+        <dt id="deep-tissue">
+          <a href="#deep-tissue">Deep Tissue</a>
+        </dt>
+        <dd>Promotes healthy body tissue.</dd>
+        <dt id="hot-stone-therapy">
+          <a href="#hot-stone-therapy">Hot Stone Therapy</a>
+        </dt>
+        <dd>
+          Basalt and sedimentary stones that are heated and placed
+          strategically on the body and used for massage techniques. The
+          heat of the stones increase circulation and promotes relaxation.
+        </dd>
+        <dt id="myofascial-release">
+          <a href="#myofascial-release">Myofascial Release</a>
+        </dt>
+        <dd>Bodywork that affects connective tissue and scar tissue.</dd>
+        <dt id="pre-natal">
+          <a href="#pre-natal">Pre-Natal</a>
+        </dt>
+        <dd>
+          Focus on reducing emotional stress, relaxation and nurturing.
+          Reduces leg and foot cramps and improves circulation. Special care
+          taken for the comfort and safety of the client in a side lying
+          position.
+        </dd>
+        <dt id="reflexology">
+          <a href="#reflexology">Reflexology</a>
+        </dt>
+        <dd>
+          Treats reflexes in the hands or feet which affect various
+          functions of the body and promotes self healing.
+        </dd>
+        <dt id="shiatsu">
+          <a href="#shiatsu">Shiatsu</a>
+        </dt>
+        <dd>
+          Japanese form of acupressure that improves organ function and
+          energy pathways throughout the body.
+        </dd>
+        <dt id="sports-massage">
+          <a href="#sports-massage">Sports Massage</a>
+        </dt>
+        <dd>Pre or Post event massage to enhance athletic performance.</dd>
+        <dt id="swedish">
+          <a href="#swedish">Swedish</a>
+        </dt>
+        <dd>Relaxation massage to improve blood and lymph flow.</dd>
+        <dt id="trigger-point">
+          <a href="#trigger-point">Trigger Point</a>
+        </dt>
+        <dd>
+          Focuses on irritable tissue that is referring pain to other areas
+          of the body.
+        </dd>
+      </dl>
+    </div>
+    <div class="content-secondary" id="services-aside">
+      <span class="picture-frame">
+        <a
+          href="/downloads/custombodyworksllc-services.pdf"
+          id="menu-download-link"
+          ><span><strong>Download Menu</strong></span></a
+        >
+      </span>
+      <dl id="pricing-scheduling">
+        <dt>Pricing</dt>
+        <dd>
+          <p>Unless noted, all services are priced by the &frac12; hour.</p>
+          <ul>
+            <li><strong>30 min.</strong> <span>$40</span></li>
+            <li><strong>60 min.</strong> <span>$65</span></li>
+          </ul>
+          <p>
+            <small
+              ><b
+                >Cash, check, and major credit/debit cards accepted.</b
+              ></small
+            >
+          </p>
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <span id="view-bottom"></span>
+</BaseLayout>
