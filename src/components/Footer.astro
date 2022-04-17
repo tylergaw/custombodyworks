@@ -8,22 +8,34 @@
     width: 960px;
   }
 
-  footer ul {
+  ul {
     background: transparent url(/images/footer_info_bg.png) no-repeat center
       center;
     line-height: 1.4em;
     padding: 40px 0;
   }
 
-  footer ul strong {
+  ul strong {
     color: #c16705;
     font-size: 22px;
     font-weight: normal;
   }
 
-  footer a {
+  a {
     color: #e6780f;
     text-decoration: underline;
+  }
+
+  @media (max-width: 480px) {
+    footer {
+      background-image: none;
+      width: 95%;
+    }
+
+    ul {
+      background-image: none;
+      padding: 10px 0;
+    }
   }
 </style>
 

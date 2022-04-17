@@ -80,6 +80,68 @@ const pageName = path || "home";
   nav li.current a:active {
     top: 0px;
   }
+
+  @media (max-width: 480px) {
+    header {
+      padding-top: 18px;
+      width: 95%;
+    }
+
+    .branding a {
+      background-image: url(/images/mobile_branding.png);
+      float: none;
+      height: 47px;
+      margin-left: 20px;
+      width: 324px;
+    }
+
+    header nav {
+      background-color: rgba(255, 252, 244, 0.5);
+      display: block;
+      float: none;
+      margin: 10px auto 0 auto;
+      overflow: hidden;
+      padding-right: 0px;
+      text-align: center;
+      width: 100%;
+    }
+
+    header nav li {
+      display: inline;
+      float: none;
+      height: 29px;
+      margin-left: 16px;
+    }
+
+    header nav li:first-child {
+      margin-left: 0;
+    }
+
+    header nav a {
+      border-bottom: 2px solid transparent;
+      padding: 0 8px;
+    }
+
+    header nav a:hover {
+      border-bottom-color: #e27914;
+    }
+
+    header nav li.current {
+      background-image: none;
+    }
+
+    header nav li.current a {
+      background-image: none;
+      border-bottom-color: #e27914;
+      color: #9a5223;
+      text-shadow: #fff 1px 1px 1px;
+    }
+
+    header nav li.current a:hover {
+      border-bottom-color: #e27914;
+      cursor: default;
+    }
+  }
 </style>
 
 <header>

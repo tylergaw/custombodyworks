@@ -234,3 +234,54 @@ p.emphasis {
   line-height: 1.36em;
   padding-bottom: 6px;
 }
+
+@media (max-width: 480px) {
+  body {
+    background: #fffbf1 url(/images/mobile_body_background.jpg) no-repeat left
+      top;
+    min-width: 300px;
+    padding-bottom: 0px;
+  }
+
+  #view-container,
+  #home #view-container {
+    background-color: rgba(255, 252, 244, 0.8);
+    background-image: none;
+    box-shadow: #c5b695 0px 0px 4px;
+    margin: 15px auto 0 auto;
+    width: 95%;
+  }
+
+  #view-bottom {
+    display: none;
+  }
+
+  .content,
+  #home .content {
+    padding: 15px;
+    width: 95%;
+  }
+
+  .content.first-child {
+    background-image: none;
+    padding-top: 0px;
+    top: 0px;
+  }
+
+  .content h2 {
+    font-size: 22px;
+    padding: 15px 0 10px 0;
+  }
+
+  .content-main {
+    background-image: none;
+    float: none;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .content-secondary {
+    float: none;
+    width: 100%;
+  }
+}

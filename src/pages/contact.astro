@@ -116,6 +116,26 @@ import CovidPrecautions from "../components/CovidPrecautions.astro";
     right: 0;
     width: 200px;
   }
+
+  @media (max-width: 480px) {
+    #contact-info dt {
+      text-indent: 0px;
+      width: 20%;
+    }
+
+    #contact-info dd {
+      width: 80%;
+    }
+
+    #directions {
+      padding: 0 6px 0 0px;
+      float: left;
+    }
+
+    #directions li span {
+      width: 92%;
+    }
+  }
 </style>
 
 <BaseLayout bodyId="contact">

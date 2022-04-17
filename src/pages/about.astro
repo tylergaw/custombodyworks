@@ -71,6 +71,67 @@ import BaseLayout from "../layouts/Base.astro";
   #about-gallery li a img {
     border: none;
   }
+
+  @media (max-width: 480px) {
+    .content blockquote {
+      margin: 18px 0;
+      padding-bottom: 20px;
+    }
+
+    .content blockquote p {
+      background-image: url(/images/mobile_about_quote_bg.jpg);
+      font-size: 18px;
+      padding: 0px 40px 0 50px;
+    }
+
+    #about-location .content-secondary {
+      display: none;
+    }
+
+    #accreditations-memberships {
+      padding: 0 6px 0 0;
+    }
+
+    #accreditations-memberships dt {
+      margin-bottom: 8px;
+    }
+
+    #accreditations-memberships dt b {
+      color: #9a5324;
+      font-size: 18px;
+      left: auto;
+      position: relative;
+      top: auto;
+    }
+
+    #accreditations-memberships dt span {
+      position: relative;
+      right: auto;
+      top: auto;
+    }
+
+    #accreditations-memberships dt span.first-child {
+      left: auto;
+      top: auto;
+    }
+
+    #accreditations-memberships li {
+      padding: 4px 0;
+    }
+
+    #about-gallery {
+      padding-right: 6px;
+    }
+
+    #about-gallery li.iDevice {
+      border: none;
+      margin-right: 0px;
+    }
+
+    #about-gallery li.iDevice img {
+      width: 100%;
+    }
+  }
 </style>
 
 <BaseLayout bodyId="about">

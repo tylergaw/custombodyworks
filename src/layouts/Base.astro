@@ -10,7 +10,7 @@ const { bodyId = "" } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
       content="Custom Body Works, LLC offers theraputic Massage and Bodyworks treatments."
@@ -22,7 +22,6 @@ const { bodyId = "" } = Astro.props;
     <link rel="shortcut icon" href="favicon.ico" />
     
     <link rel="stylesheet" href="/css/cbw.css" />
-    <link rel="stylesheet" href="/css/cbw.responsive.css" />
   </head>
   <body id={bodyId}>
     <CovidNotice />
