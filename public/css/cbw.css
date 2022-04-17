@@ -38,7 +38,7 @@ fieldset {
 }
 
 body {
-  background: #fffbf1 url(../images/body_background.jpg) no-repeat -380px 2px;
+  background: #fffbf1 url(/images/body_background.jpg) no-repeat -380px 2px;
   border-top: 4px solid #f19f00;
   color: #8d5d3e;
   font-family: georgia, times, serif;
@@ -70,7 +70,7 @@ body {
 }
 
 .notice__title {
-  background: #a5450b url(../images/home_banner_bg.jpg) repeat-x left center;
+  background: #a5450b url(/images/home_banner_bg.jpg) repeat-x left center;
   color: #fffbf1;
   padding: 0.75rem 1rem;
   font-size: 110%;
@@ -112,13 +112,6 @@ body {
   margin: 0.25rem 0;
 }
 
-/* Overrides specific to services page */
-#services .inline-notice h3 {
-  background: none;
-  left: 0;
-  margin: 0;
-}
-
 /*- Header -------------------------------------------------------------------------------------------*/
 
 header {
@@ -129,7 +122,7 @@ header {
 }
 
 header #branding a {
-  background: transparent url(../images/branding.png) no-repeat left top;
+  background: transparent url(/images/branding.png) no-repeat left top;
   display: inline-block;
   float: left;
   height: 79px;
@@ -181,11 +174,11 @@ header nav a:active {
 }
 
 header nav li.current {
-  background: transparent url(../images/nav_a_sprite.png) no-repeat left top;
+  background: transparent url(/images/nav_a_sprite.png) no-repeat left top;
 }
 
 header nav li.current a {
-  background: transparent url(../images/nav_a_sprite.png) no-repeat right bottom;
+  background: transparent url(/images/nav_a_sprite.png) no-repeat right bottom;
   color: #fffbf1;
   text-shadow: #c16a17 1px 1px 1px;
 }
@@ -202,14 +195,20 @@ header nav li.current a:active {
 /*- View Container -----------------------------------------------------------------------------------*/
 
 #view-container {
-  background: transparent url(../images/container_tile.png) repeat-y left top;
+  background: transparent url(/images/container_tile.png) repeat-y left top;
   margin: 26px auto 0;
   position: relative;
   width: 964px;
 }
 
+#home #view-container {
+  background: transparent url(/images/home_banner_bg.jpg) repeat-x center top;
+  overflow: visible;
+  width: auto;
+}
+
 #view-bottom {
-  background: transparent url(../images/container_bottom.png) no-repeat left
+  background: transparent url(/images/container_bottom.png) no-repeat left
     bottom;
   clear: both;
   display: block;
@@ -218,6 +217,11 @@ header nav li.current a:active {
   top: 14px;
   width: 964px;
   z-index: 99;
+}
+
+#home #view-bottom {
+  display: none;
+  min-width: 960px;
 }
 
 /*- Content ------------------------------------------------------------------------------------------*/
@@ -238,7 +242,7 @@ header nav li.current a:active {
 }
 
 .content.first-child {
-  background: transparent url(../images/container_top.png) no-repeat left top;
+  background: transparent url(/images/container_top.png) no-repeat left top;
   padding-top: 36px;
   top: -6px;
 }
@@ -249,8 +253,8 @@ header nav li.current a:active {
 }
 
 .content h2 {
-  background: transparent url(../images/content_horiz_divider.png) no-repeat
-    left bottom;
+  background: transparent url(/images/content_horiz_divider.png) no-repeat left
+    bottom;
   color: #9a5223;
   font-size: 26px;
   font-style: italic;
@@ -292,8 +296,8 @@ p.emphasis {
 /*- Content Main -------------------------------------------------------------------------------------*/
 
 .content-main {
-  background: transparent url(../images/content_heading_detail.png) no-repeat
-    left top;
+  background: transparent url(/images/content_heading_detail.png) no-repeat left
+    top;
   float: right;
   padding: 0 17px 0 25px;
   width: 542px;
@@ -308,7 +312,7 @@ p.emphasis {
 }
 
 .picture-frame {
-  background: transparent url(../images/picture_frame_bg.png) no-repeat left
+  background: transparent url(/images/picture_frame_bg.png) no-repeat left
     bottom;
   display: inline-block;
   margin-left: 4px;
@@ -382,7 +386,7 @@ p.emphasis {
 /*- Footer -------------------------------------------------------------------------------------------*/
 
 footer {
-  background: transparent url(../images/footer_bg.png) no-repeat center center;
+  background: transparent url(/images/footer_bg.png) no-repeat center center;
   clear: both;
   margin: 0 auto;
   padding: 10px 0;
@@ -391,7 +395,7 @@ footer {
 }
 
 footer ul {
-  background: transparent url(../images/footer_info_bg.png) no-repeat center
+  background: transparent url(/images/footer_info_bg.png) no-repeat center
     center;
   line-height: 1.4em;
   padding: 40px 0;

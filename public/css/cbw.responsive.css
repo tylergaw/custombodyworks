@@ -1,8 +1,6 @@
-/*- Layouts 480px and smaller, iPhone and mobiles and narrow browser. (Thanks, Hicks) ----------------*/
-
 @media (max-width: 480px) {
   body {
-    background: #fffbf1 url(../images/mobile_body_background.jpg) no-repeat left
+    background: #fffbf1 url(/images/mobile_body_background.jpg) no-repeat left
       top;
     min-width: 300px;
     padding-bottom: 0px;
@@ -14,7 +12,7 @@
   }
 
   header #branding a {
-    background-image: url(../images/mobile_branding.png);
+    background-image: url(/images/mobile_branding.png);
     float: none;
     height: 47px;
     margin-left: 20px;
@@ -191,7 +189,7 @@
   }
 
   .content blockquote p {
-    background-image: url(../images/mobile_about_quote_bg.jpg);
+    background-image: url(/images/mobile_about_quote_bg.jpg);
     font-size: 18px;
     padding: 0px 40px 0 50px;
   }

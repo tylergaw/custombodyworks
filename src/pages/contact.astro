@@ -1,0 +1,202 @@
+---
+import BaseLayout from "../layouts/Base.astro";
+---
+
+<style>
+  p.emphasis strong {
+    color: #c16705;
+  }
+
+  p.emphasis {
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.4em;
+  }
+
+  #contact-info {
+    background: transparent url(/images/content_horiz_divider.png) no-repeat left
+      bottom;
+    float: left;
+    margin-bottom: 22px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  #contact-info dt {
+    display: block;
+    float: left;
+    padding-bottom: 20px;
+    text-indent: 80px;
+    width: 150px;
+  }
+
+  #contact-info dd {
+    color: #9a5223;
+    display: block;
+    float: right;
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 20px;
+    width: 385px;
+  }
+
+  #map-link {
+    background: #fff url(/images/contact_map.jpg) no-repeat center center;
+    display: block;
+    height: 195px;
+    padding: 6px;
+    position: relative;
+    text-decoration: none;
+    width: 219px;
+  }
+
+  #map-link span {
+    background: transparent url(/images/contact_map_view.png) no-repeat center
+      center;
+    display: block;
+    height: 33px;
+    opacity: 0.55;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -50em;
+    transition: opacity 0.2s linear;
+    right: 13px;
+    top: 13px;
+    width: 33px;
+  }
+
+  #map-link:hover span {
+    opacity: 1;
+  }
+
+  #directions {
+    padding: 0 24px 0 32px;
+    float: left;
+    text-align: left;
+  }
+
+  #directions dt {
+    margin-bottom: 12px;
+  }
+
+  #directions li {
+    float: left;
+    list-style: none outside;
+    overflow: hidden;
+    padding: 6px 0;
+    width: 100%;
+  }
+
+  #directions li:first-child {
+    border-top: none;
+  }
+
+  #directions li b {
+    background-color: #e06f12;
+    border-radius: 7px;
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 14px;
+    line-height: 1.1em;
+    margin-top: 0.25em;
+    text-align: center;
+    text-shadow: #b55f0e 1px 1px 1px;
+    width: 14px;
+  }
+
+  #directions li span {
+    display: block;
+    float: left;
+    line-height: 1.4em;
+    margin-left: 10px;
+    position: relative;
+    right: 0;
+    width: 200px;
+  }
+</style>
+
+<BaseLayout bodyId="contact">
+  <div class="content first-child">
+    <div class="content-main">
+      <h2>Getting In Touch</h2>
+      <dl id="contact-info">
+        <dt>Phone:</dt>
+        <dd>573-470-0328</dd>
+
+        <dt>Email:</dt>
+        <dd><a href="mailto:karmagaw@gmail.com">karmagaw@gmail.com</a></dd>
+
+        <dt>Address:</dt>
+        <dd>
+          <span class="address">
+            15049 Highway UU <br />
+            Bowling Green, Missouri 63334
+          </span>
+        </dd>
+      </dl>
+      <div class="inline-notice" id="covid-19-precautions">
+        <h3>COVID-19 Client/Therapist Precautions</h3>
+        <p>
+          Please do not keep your appointment for massage therapy or biomat
+          time if:
+        </p>
+        <ul>
+          <li>You have had a fever of over 100° in the last 24 hours</li>
+          <li>
+            You have recently had any respitory or flu symptoms, sore
+            throat, or shortness of breath
+          </li>
+          <li>
+            You have had any contact with anyone in the last 14 days who has
+            been diagnosed with COVID-19 or Coronavirus-type symptoms
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-secondary">
+      <span class="picture-frame">
+        <a
+          id="map-link"
+          href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=15049+State+Highway+Uu,+Bowling+Green,+MO+63334&amp;sll=40.729685,-73.97939&amp;sspn=0.009382,0.017424&amp;ie=UTF8&amp;hq=&amp;hnear=15049+State+Highway+Uu,+Bowling+Green,+Pike,+Missouri+63334&amp;ll=39.389907,-91.198947&amp;spn=0.011011,0.021265&amp;z=16&amp;iwloc=r0"
+        >
+          <span>View Map</span>
+        </a>
+      </span>
+      <dl id="directions">
+        <dt>Directions from Hwy 61</dt>
+        <dd>
+          <ul>
+            <li><b>1</b> <span>Take the Hwy UU exit</span></li>
+            <li>
+              <b>2</b>
+              <span
+                >If Hwy 61 North: turn right<br />If Hwy 61 South: turn
+                left</span
+              >
+            </li>
+            <li><b>3</b> <span>Go 1.8 miles</span></li>
+            <li>
+              <b>4</b>
+              <span
+                >Driveway will be on the right
+                <em>(there is a sign by the road)</em></span
+              >
+            </li>
+            <li>
+              <b>5</b>
+              <span
+                >Park on the concrete pad in front of the building on the
+                left</span
+              >
+            </li>
+            <li><b>6</b> <span>Come in and relax</span></li>
+          </ul>
+        </dd>
+      </dl>
+      <dl></dl>
+    </div>
+  </div>
+  <span id="view-bottom"></span>
+</BaseLayout>

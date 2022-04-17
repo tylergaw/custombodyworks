@@ -2,8 +2,22 @@
 
 ### Local setup
 
-This is a static HTML, CSS site. To work on it locally, run a local server in the root directory
+This is a static site built with [Astro](https://astro.build/)
+
+**Install dependencies**
 
 ```
-python -m http.server
+yarn
+```
+
+**Run local server**
+
+```
+yarn start
+```
+
+**Build for production**
+
+```
+yarn build
 ```

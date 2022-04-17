@@ -1,0 +1,44 @@
+---
+import Banner from "../components/Banner.astro";
+import CovidNotice from "../components/CovidNotice.astro";
+import Footer from "../components/Footer.astro";
+
+const { bodyId = "" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Custom Body Works, LLC offers theraputic Massage and Bodyworks treatments."
+    />
+    <title>
+      Custom Body Works LLC | Massage and Bodyworks Services | Bowling Green,
+      Missouri
+    </title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <link rel="stylesheet" href="/css/cbw.css" />
+    <link rel="stylesheet" href="/css/cbw.responsive.css" />
+  </head>
+  <body id={bodyId}>
+    <CovidNotice />
+    <Banner />
+
+    <hr />
+
+    <div id="view-container">
+      <slot />
+    </div>
+
+    <hr />
+
+    <Footer />
+
+    <script src="/js/lib/jquery/jquery-lib.min.js" is:inline></script>
+    <script src="/js/cbw.js" is:inline></script>
+  </body>
+</html>

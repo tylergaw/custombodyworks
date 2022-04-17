@@ -1,0 +1,24 @@
+{
+  "name": "custombodyworks",
+  "version": "1.0.0",
+  "description": "Karma Gaw's business website",
+  "main": "index.js",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylergaw/custombodyworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylergaw/custombodyworks/issues"
+  },
+  "homepage": "https://github.com/tylergaw/custombodyworks#readme",
+  "devDependencies": {
+    "astro": "1.0.0-beta.12"
+  }
+}
