@@ -1,5 +1,83 @@
+<style>
+  header {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 34px;
+    width: 960px;
+  }
+
+  .branding a {
+    background: transparent url(/images/branding.png) no-repeat left top;
+    display: inline-block;
+    float: left;
+    height: 79px;
+    text-indent: -300em;
+    width: 472px;
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+    margin-top: 22px;
+    padding-right: 14px;
+  }
+
+  nav li {
+    display: block;
+    float: left;
+    height: 26px;
+    margin-left: 14px;
+  }
+
+  nav li:first-child {
+    background: none;
+  }
+
+  nav a {
+    border-bottom: 2px solid #fff8ec;
+    color: #9a5223;
+    display: inline-block;
+    font-size: 17px;
+    height: 26px;
+    line-height: 1.58em;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: #fff 1px 1px 1px;
+  }
+
+  nav a:hover {
+    border-bottom-color: #e27914;
+  }
+
+  nav a:active {
+    outline: 0px;
+    top: 1px;
+  }
+
+  nav li.current {
+    background: transparent url(/images/nav_a_sprite.png) no-repeat left top;
+  }
+
+  nav li.current a {
+    background: transparent url(/images/nav_a_sprite.png) no-repeat right bottom;
+    color: #fffbf1;
+    text-shadow: #c16a17 1px 1px 1px;
+  }
+
+  nav li.current a:hover {
+    border-bottom-color: #fff8ec;
+    cursor: default;
+  }
+
+  nav li.current a:active {
+    top: 0px;
+  }
+</style>
+
 <header>
-  <section id="branding">
+  <section class="branding">
     <a href="/">
       <h1>Custom Body Works</h1>
       <p>Self-healing through knowledge</p>
