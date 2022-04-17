@@ -2,7 +2,7 @@
 
 ### Local setup
 
-This is a static site built with [Astro](https://astro.build/)
+This is a static site built with [Astro](https://astro.build/) hosted on Netlify
 
 **Install dependencies**
 
