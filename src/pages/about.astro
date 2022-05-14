@@ -46,32 +46,6 @@ import BaseLayout from "../layouts/Base.astro";
     top: 0px;
   }
 
-  #about-gallery ul {
-    overflow: hidden;
-  }
-
-  #about-gallery li {
-    border: 1px solid #e2dbc7;
-    float: left;
-    margin-right: 12px;
-  }
-
-  #about-gallery li:hover {
-    border-bottom-color: #a9904a;
-  }
-
-  #about-gallery li a {
-    background-color: #fff;
-    display: block;
-    height: 82px;
-    padding: 4px;
-    width: 82px;
-  }
-
-  #about-gallery li a img {
-    border: none;
-  }
-
   @media (max-width: 480px) {
     .content blockquote {
       margin: 18px 0;
@@ -196,7 +170,7 @@ import BaseLayout from "../layouts/Base.astro";
           >Need help getting here?</a
         >
       </p>
-      <ul id="about-gallery">
+      <ul class="photo-gallery">
         <li>
           <a
             class="fancybox"
