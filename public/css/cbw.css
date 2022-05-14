@@ -235,6 +235,32 @@ p.emphasis {
   padding-bottom: 6px;
 }
 
+.photo-gallery ul {
+  overflow: hidden;
+}
+
+.photo-gallery li {
+  border: 1px solid #e2dbc7;
+  float: left;
+  margin-right: 12px;
+}
+
+.photo-gallery li:hover {
+  border-bottom-color: #a9904a;
+}
+
+.photo-gallery li a {
+  background-color: #fff;
+  display: block;
+  height: 82px;
+  padding: 4px;
+  width: 82px;
+}
+
+.photo-gallery li a img {
+  border: none;
+}
+
 @media (max-width: 480px) {
   body {
     background: #fffbf1 url(/images/mobile_body_background.jpg) no-repeat left
